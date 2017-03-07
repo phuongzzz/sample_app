@@ -21,3 +21,16 @@
 
 en:
   hello: "Hello world"
+  page:
+    home:
+      title: "Home"
+      content: "This is home page"
+    about:
+      title: "About"
+      content: "This is about page"
+    contact:
+      title: "Contact"
+      content: "This is contact page"
+    help:
+      title: "Help"
+      content: "This is help page"
