@@ -1,6 +1,14 @@
-<% provide :title, t("page.home.title") %>
-<h1>Sample App</h1>
-<p>
-  <%= t "page.home.content" %>
-</p>
+<div class="center jumbotron">
+  <h1> <%= t "page.home.welcome" %> </h1>
+
+  <h2>
+    <%= t "page.home.content" %>
+  </h2>
+
+  <%= link_to t("link.signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("ror.png", alt: "Rails logo", id: "ror-logo"),
+  "http://rubyonrails.org/", id: "image-link"%>
+
 <p><%= I18n.locale %></p>

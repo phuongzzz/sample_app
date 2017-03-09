@@ -5,6 +5,9 @@ en:
     home:
       title: "Home"
       content: "This is home page"
+      welcome: "Welcome to Sample App"
+      site_name: "Phuong's Sample App"
+      language: "language"
     about:
       title: "About"
       content: "This is about page"
@@ -14,3 +17,18 @@ en:
     help:
       title: "Help"
       content: "This is help page"
+    register:
+      title: "Register"
+      content: "This page is for registering user"
+  link:
+    home: "Home"
+    help: "Help"
+    login: "Login"
+    about: "About"
+    contact: "Contact Us"
+    news: "News"
+    signup: "Signup now"
+  footer:
+    by: "by"
+    ex_name: "Ruby on Rails Tutorial exercise"
+    author: "Phuong"
