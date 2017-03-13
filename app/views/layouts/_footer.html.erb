@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("footer.ex_name"), "http://www.railstutorial.org/" %>
+    <%= t "footer.by" %>
+    <%= link_to t("footer.author"), "https://www.facebook.com/vanilla.twilight1295/" %>
+
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("link.about"), about_path %></li>
+      <li><%= link_to t("link.contact"), contact_path %></li>
+      <li>
+        <%= link_to t("link.news"), "http://news.railstutorial.org/" %>
+      </li>
+    </ul>
+  </nav>
+</footer>
