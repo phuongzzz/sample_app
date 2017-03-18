@@ -20,6 +20,7 @@ en:
     register:
       title: "Register"
       content: "This page is for registering user"
+      submit: "Create my account"
   link:
     home: "Home"
     help: "Help"
@@ -32,3 +33,9 @@ en:
     by: "by"
     ex_name: "Ruby on Rails Tutorial exercise"
     author: "Phuong"
+  error_messages:
+    contains: "The form contains following errors"
+    errors: "errors"
+    not_found_user: "User not found"
+  signup:
+    welcome: "Welcome"
