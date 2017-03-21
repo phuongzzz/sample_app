@@ -1,0 +1,13 @@
+validates:
+  name:
+    presence: true
+    length: 50
+  email:
+    presence: true
+    length: 255
+    case_sensitive: false
+  password:
+    presence: true
+    length: 6
+gravatar:
+  size: 80
