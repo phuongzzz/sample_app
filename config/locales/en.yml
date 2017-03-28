@@ -30,6 +30,7 @@ en:
   link:
     home: "Home"
     help: "Help"
+    remember: "remember"
     login: "Login"
     about: "About"
     contact: "Contact Us"
