@@ -6,14 +6,16 @@
         <li><%= link_to t("link.home"), root_path %></li>
         <li><%= link_to t("link.help"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("link.user"), "#" %></li>
+          <li><%= link_to t("link.user"), users_path %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <%= t "link.account" %><b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to t("link.profile"), current_user %></li>
-              <li><%= link_to t("link.setting"), "#" %></li>
+              <li><%= link_to t("link.setting"),
+                edit_user_path(current_user) %>
+              </li>
               <li class="divider"></li>
               <li>
                 <%= link_to t("logout"), logout_path, method: :delete %>

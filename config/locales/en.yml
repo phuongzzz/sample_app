@@ -27,6 +27,18 @@ en:
       new_user: "New user"
       error: "Something went wrong, recheck your credentials"
       success: "Welcome back"
+    edit:
+      button_text: "Save"
+      change_ava: "Change Avatar"
+      header: "Edit Your Profile"
+      success: "Update successfully"
+      danger: "Please login first"
+      title: "Edit Users"
+    index:
+      title: "All Users"
+      header: "All Users"
+      confirm: "Are you sure?"
+      delete: "User deleted"
   link:
     home: "Home"
     help: "Help"
@@ -39,7 +51,7 @@ en:
     setting: "Setting"
     logout: "Logout"
     news: "News"
-    user: "User"
+    user: "Users"
     signup: "Signup here!"
   footer:
     by: "by"
@@ -51,3 +63,5 @@ en:
     not_found_user: "User not found"
   signup:
     welcome: "Welcome"
+  form:
+    confirm: "Type Again"
