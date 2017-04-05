@@ -11,3 +11,5 @@ validates:
     length: 6
 gravatar:
   size: 80
+pagination:
+  per_page: 6
