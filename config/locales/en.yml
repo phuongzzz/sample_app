@@ -73,6 +73,5 @@ en:
     mail_check: "Please check your email to activate your account."
     actived: "Account activated!"
     not_actived: "Invalid activation link"
-    n_info: "Account not activated. "
-    check: "Check your email for the activation link."
+    check: "Account not activated. Check your email for the activation link."
     subject: "Account Activation"
