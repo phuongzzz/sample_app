@@ -75,3 +75,20 @@ en:
     not_actived: "Invalid activation link"
     check: "Account not activated. Check your email for the activation link."
     subject: "Account Activation"
+  password_reset:
+    forget: "Forget password"
+    title: "Reset Password"
+    submit: "Submit"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    mail: "Password Reset"
+    update: "Update Password"
+    confirm: "Confirm"
+    instructions: "To reset your password click the link below:"
+    expire: "This link will expire in two hours."
+    warning: "If you did not request your password to be reset,
+              please ignore this email and
+              your password will stay as it is."
+    empty: "Password can not be empty"
+    reset: "Passwrod has been reseted"
+    expired: "This password reset has expired"
