@@ -65,3 +65,13 @@ en:
     welcome: "Welcome"
   form:
     confirm: "Type Again"
+  mail:
+    header: "Phuong App"
+    hi: "Hi"
+    message: "Click link to active your account"
+    active: "Active"
+    mail_check: "Please check your email to activate your account."
+    actived: "Account activated!"
+    not_actived: "Invalid activation link"
+    check: "Account not activated. Check your email for the activation link."
+    subject: "Account Activation"
