@@ -13,3 +13,7 @@ gravatar:
   size: 80
 pagination:
   per_page: 6
+micropost:
+  user_presence: true
+  content_presence: true
+  length: 140
