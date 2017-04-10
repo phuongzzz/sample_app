@@ -8,6 +8,7 @@ en:
       welcome: "Welcome to Sample App"
       site_name: "Phuong's Sample App"
       language: "language"
+      view_info: "view my profile"
     about:
       title: "About"
       content: "This is about page"
@@ -92,3 +93,15 @@ en:
     empty: "Password can not be empty"
     reset: "Passwrod has been reseted"
     expired: "This password reset has expired"
+  micropost:
+    post: "Posted"
+    login: "Please login first"
+    created: "Micropost created!"
+    create: "Create new micropost"
+    button: "Post"
+    feed: "Micropost Feed"
+    deleted: "Post deleted"
+    picture: "picture should be less than 5MB"
+    alert: "File size is more than 5MB, which is too large!"
+    micropost: "Micropost"
+    delete: "Delete"
