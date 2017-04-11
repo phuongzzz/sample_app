@@ -105,3 +105,9 @@ en:
     alert: "File size is more than 5MB, which is too large!"
     micropost: "Micropost"
     delete: "Delete"
+  follow:
+    following: "following"
+    follower: "followers"
+    follow_btn: "Follow"
+    unfollow_btn: "Unfollow"
+    view_profile: "view my profile"
